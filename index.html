@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+   <div class="card">
+            <form action="" method="POST">
+           <div class="login-form">
+               
+               <h2 >Form</h2>
+               
+               <div class="name-inputbox">
+                <h3>Name</h3>
+                <input type="text" class="form-control" id="field" placeholder="Input your name" required>
+                    <i class="fa fa-user"></i>
+               </div>
+               <div id="field-error" style="display:none;">This field cannot be empty</div>
+
+
+               <div class="email-inputbox">
+                <h3>Email</h3>
+                <input type="email" class="form-control" id="field" placeholder="Input your email" required>
+               
+                    
+                    <i class="fa fa-envelope"></i>
+                  
+               </div>
+               <div id="field-error" style="display:none;">This field cannot be empty</div>
+
+           </div>
+           <div class="terms-cond">
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+              <label class="form-check-label" for="">
+                <span>I agree with the terms and conditions</span>
+              </label>
+            </div>
+
+           <div class="login-form">
+            <!-- <button type="submit" class="submit-button">Submit</button> -->
+            <input type="submit" class="submit-button" value="Submit">
+           </div>
+       </div>
+       </form>
+</body>
+
+<script src = "./script.js"></script>
+</html>

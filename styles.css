@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img:not(.logo) {
+  width: 100%;
+}
+img {
+  display: block;
+}
+
+body{
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+}
+
+a {
+  color: rgb(31, 31, 31);
+}
+
+#field-error{
+  letter-spacing: 0.15rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", sans-serif;;
+  color: red;
+}
+
+.card {
+    position: absolute;
+    width: 543px;
+    height: 656px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #EFEFEF;
+    box-shadow: -3px -3px 16px #FFFFFF, 4px 4px 8px rgba(174, 174, 174, 0.4);
+    border-radius: 41px;
+
+}
+
+h1,
+h2,
+h3,
+h4, span, label, button {
+  letter-spacing: 0.15rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", sans-serif;;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4, span {
+  font-size: 0.875rem;
+}
+span{
+    font-weight: bold;
+}
+.back{
+    display: flex;
+    justify-content: start;
+}
+
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+input[type=email], input[type=text]{
+  width: 350px;
+  padding: 10px 10px;
+  margin: 8px 0px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.submit-button{
+    width: 100%;
+  background-color: #1e77cc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.terms-cond {
+  text-align: center;
+}
